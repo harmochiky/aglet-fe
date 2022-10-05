@@ -1,6 +1,7 @@
 body {
   background: #000;
   color: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 header {
@@ -33,4 +34,56 @@ header nav ul li a {
   color: #fff;
   text-decoration: none;
   font-weight: 600;
+}
+
+a, a:visited, .a {
+  color: #999;
+  text-decoration: none;
+  outline: none;
+  transition: color 2s cubic-bezier(0.26, 1.04, 0.54, 1);
+}
+
+.item-card-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.item-card-container .card-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.39);
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  transition: 0.3s all;
+}
+.item-card-container .card-overlay.hide {
+  background: rgba(0, 0, 0, 0);
+}
+.item-card-container .card-overlay.show {
+  background: rgba(0, 0, 0, 0.39);
+}
+.item-card-container .content {
+  margin-top: 2vw;
+  padding-left: 4.87203%;
+}
+.item-card-container .content h2 {
+  font-size: 1.5vw;
+  font-weight: bold;
+  display: inline-block;
+  color: #fff;
+  margin: 0;
+}
+.item-card-container .content h3 {
+  color: #4a4a4a;
+  font-size: 1.12vw;
+  margin-top: 0.5vw;
+}
+
+.slider-container {
+  padding: 40px 0;
 }/*# sourceMappingURL=main.css.map */

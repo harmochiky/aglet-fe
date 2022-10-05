@@ -12,10 +12,10 @@ export default function Header() {
         <div>
           <ul>
             <li>
-              <NavLink to="/">Home</NavLink>
+              <NavLink to="/">home</NavLink>
             </li>
             <li>
-              <NavLink to="/">Contact</NavLink>
+              <NavLink to="/contact">contact</NavLink>
             </li>
           </ul>
         </div>
