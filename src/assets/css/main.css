@@ -86,4 +86,18 @@ a, a:visited, .a {
 
 .slider-container {
   padding: 40px 0;
+}
+
+.swiper-scrollbar {
+  position: relative !important;
+  background: #4a4a4a;
+  width: 300px !important;
+  margin: 59px auto;
+}
+
+.scroll-bar {
+  background: #4a4a4a;
+}
+.scroll-bar .scroll-node {
+  background: #a5a7ac;
 }/*# sourceMappingURL=main.css.map */

@@ -1,7 +1,7 @@
 import React from "react";
 import {Swiper,SwiperSlide} from "swiper/react"
 import ItemCard from "../component/ItemCard";
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import {Scrollbar} from 'swiper';
 
 const slides_content = [
   {
@@ -88,11 +88,15 @@ const handle_on_hover = (i)=>{
 
 return <div className="slider-container">
   <Swiper  
-  
-  scrollbar={{ draggable: true }}
-  navigation
-   modules={[Navigation, Pagination, Scrollbar, A11y]}
-   slidesPerView={3}>
+
+  scrollbar={{ draggable: true,
+  hide : false,
+  dragSize : "100px",
+  }}
+   modules={[ Scrollbar]}
+   slidesPerView={3}
+   >
+    
     {
       slides_content.map((x,index)=>(
         <SwiperSlide key={index}>
