@@ -12,7 +12,7 @@ export default function Header() {
         <div>
           <ul>
             <li>
-              <NavLink to="/">home</NavLink>
+              <NavLink isActive={false} to="/home">home</NavLink>
             </li>
             <li>
               <NavLink to="/contact">contact</NavLink>

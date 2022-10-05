@@ -96,7 +96,6 @@ return <div className="slider-container">
    modules={[ Scrollbar]}
    slidesPerView={3}
    >
-    
     {
       slides_content.map((x,index)=>(
         <SwiperSlide key={index}>

@@ -31,6 +31,24 @@ header {
           color: #fff;
           text-decoration: none;
           font-weight: 600;
+          position: relative;
+          padding: 10px;
+          &::after {
+            content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0);
+          }
+          &.active {
+            color : #fff;
+            &::after {
+              background: rgb(255, 255, 255);
+            }
+          }
         }
       }
     }
