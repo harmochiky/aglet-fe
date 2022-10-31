@@ -54,7 +54,9 @@ header nav ul li a.active::after {
   background: rgb(255, 255, 255);
 }
 
-a, a:visited, .a {
+a,
+a:visited,
+.a {
   color: #999;
   text-decoration: none;
   outline: none;
@@ -118,4 +120,57 @@ a, a:visited, .a {
 }
 .scroll-bar .scroll-node {
   background: #a5a7ac;
+}
+
+.contact-wrapper {
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+.contact-wrapper .container {
+  white-space: nowrap;
+}
+.contact-wrapper .inner-container {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+}
+.contact-wrapper .inner-container .left {
+  width: 60%;
+  position: relative;
+}
+.contact-wrapper .inner-container .left img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  left: -10%;
+}
+.contact-wrapper .inner-container .right {
+  z-index: 5;
+  position: relative;
+  width: 30%;
+  top: -8vw;
+}
+.contact-wrapper .inner-container .right .hello_text {
+  color: #585858;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14.0625vw;
+  line-height: 14.0625vw;
+  display: inline-block;
+  white-space: nowrap;
+  transform: translate3d(-55%, 0, 0);
+  margin-bottom: 0;
+}
+.contact-wrapper .inner-container .right .share-section {
+  align-items: center;
+  display: flex;
+}
+.contact-wrapper .inner-container .right .share-section img {
+  height: 20px;
+  width: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-left: 10px;
 }/*# sourceMappingURL=main.css.map */
