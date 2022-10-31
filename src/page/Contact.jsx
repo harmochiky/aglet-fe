@@ -2,6 +2,7 @@ import React from "react";
 import ContactImg from "../assets/contact/contact-image.jpg";
 
 export default function Contact() {
+  document.title = "Contact | Aglet";
   return (
     <section className="contact-wrapper">
       <div className="container">

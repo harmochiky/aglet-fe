@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Logo from "../assets/logo/aglet_logo.svg";
 
 const base64MenuIcon =
@@ -7,12 +7,15 @@ const base64MenuIcon =
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  document.title = "Aglet | Assessment";
   return (
     <>
       <header className="main-header">
         <nav>
           <div>
-            <img src={Logo} alt="Aglet" className="logo img-fluid" />
+            <Link to="/home">
+              <img src={Logo} alt="Aglet" className="logo img-fluid" />
+            </Link>
           </div>
           <div>
             <ul>
