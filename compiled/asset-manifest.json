@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.0a15a7c0.css",
+    "main.css": "/static/css/main.bdbeff8e.css",
     "main.js": "/static/js/main.e68e5c5b.js",
     "static/media/Mercedes_Leon_stage.mp4": "/static/media/Mercedes_Leon_stage.4e3a8413b02da31fba67.mp4",
     "static/media/stage_xmas.mp4": "/static/media/stage_xmas.e828a5670c74ac245a87.mp4",
@@ -29,11 +29,11 @@
     "static/media/download-10.jpg": "/static/media/download-10.4d094425138f143097ea.jpg",
     "static/media/aglet_logo.svg": "/static/media/aglet_logo.185df4d3cbd0cec6dbfd8e8fb1cd0801.svg",
     "index.html": "/index.html",
-    "main.0a15a7c0.css.map": "/static/css/main.0a15a7c0.css.map",
+    "main.bdbeff8e.css.map": "/static/css/main.bdbeff8e.css.map",
     "main.e68e5c5b.js.map": "/static/js/main.e68e5c5b.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a15a7c0.css",
+    "static/css/main.bdbeff8e.css",
     "static/js/main.e68e5c5b.js"
   ]
 }
