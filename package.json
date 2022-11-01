@@ -24,6 +24,11 @@
   "reactSnap": {
     "inlineCss": true
   },
+  "engineOptions": {
+    "args": [
+      "--no-sandbox"
+    ]
+  },
   "eslintConfig": {
     "extends": [
       "react-app",

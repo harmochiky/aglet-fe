@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.67b7d196.css",
-    "main.js": "/static/js/main.39986405.js",
-    "static/js/787.1992721e.chunk.js": "/static/js/787.1992721e.chunk.js",
+    "main.css": "/static/css/main.0a15a7c0.css",
+    "main.js": "/static/js/main.e68e5c5b.js",
     "static/media/Mercedes_Leon_stage.mp4": "/static/media/Mercedes_Leon_stage.4e3a8413b02da31fba67.mp4",
     "static/media/stage_xmas.mp4": "/static/media/stage_xmas.e828a5670c74ac245a87.mp4",
     "static/media/stage_g_class_dna.mp4": "/static/media/stage_g_class_dna.f1f21014c2acb8326651.mp4",
@@ -16,6 +15,7 @@
     "static/media/risk_1.mp4": "/static/media/risk_1.ae6c937a2de075c9fb34.mp4",
     "static/media/F1_stage-1.mp4": "/static/media/F1_stage-1.9524a02edc1fe47b5446.mp4",
     "static/media/download-7.jpg": "/static/media/download-7.df98dca20afc5fdd2811.jpg",
+    "static/media/contact-image.jpg": "/static/media/contact-image.e15bb50e4f162faa3871.jpg",
     "static/media/download-8.jpg": "/static/media/download-8.6f6738e643ac7d9cb758.jpg",
     "static/media/download-4.jpg": "/static/media/download-4.fc51e659e4ef3dba56ba.jpg",
     "static/media/download-3.jpg": "/static/media/download-3.1d898d8dfe4e3882fbbc.jpg",
@@ -29,12 +29,11 @@
     "static/media/download-10.jpg": "/static/media/download-10.4d094425138f143097ea.jpg",
     "static/media/aglet_logo.svg": "/static/media/aglet_logo.185df4d3cbd0cec6dbfd8e8fb1cd0801.svg",
     "index.html": "/index.html",
-    "main.67b7d196.css.map": "/static/css/main.67b7d196.css.map",
-    "main.39986405.js.map": "/static/js/main.39986405.js.map",
-    "787.1992721e.chunk.js.map": "/static/js/787.1992721e.chunk.js.map"
+    "main.0a15a7c0.css.map": "/static/css/main.0a15a7c0.css.map",
+    "main.e68e5c5b.js.map": "/static/js/main.e68e5c5b.js.map"
   },
   "entrypoints": [
-    "static/css/main.67b7d196.css",
-    "static/js/main.39986405.js"
+    "static/css/main.0a15a7c0.css",
+    "static/js/main.e68e5c5b.js"
   ]
 }
