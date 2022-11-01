@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import HoverVideoPlayer from "react-hover-video-player";
 
@@ -46,7 +47,7 @@ export default function ItemCard({
         }
       />
       <div className="content">
-        <a href="#">
+        <a href="">
           <h2 className="content-name">Ahoj Berlin.</h2>
         </a>
         <h3>Ahoj-Brause</h3>
